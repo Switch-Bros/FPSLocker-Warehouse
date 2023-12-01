@@ -85,6 +85,9 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Bang-On Balls: Chronicles | `010081E01A45C000` | `6B5E31BAA58DB229` ([✅](SaltySD/plugins/FPSLocker/patches/010081E01A45C000/6B5E31BAA58DB229.yaml), v1, 1.0.1 | 🔵 | [LINK](Methodology/Bang-On%20Balls%3A%20Chronicles) | 
 | Baldo The Guardian Owls | `0100A75005E92000` | `55DCCE87699CF94C` (◯, v15, 1.0.15) | 🟢 |  |
 | Batman - The Telltale Series | `0100011005D92000` | `A3A998AF3252D110` (❌, v3, 1.0.4) | 🔵 | [LINK](Methodology/Batman%20-%20The%20Telltale%20Series) |
+| Batman: Arkham Asylum | `0100E870163CA000` | `ADC8FED84D846EE8` ([✅](SaltySD/plugins/FPSLocker/patches/0100E870163CA000/ADC8FED84D846EE8.yaml), v0, 1.0.0) | 🔴 |  |
+| Batman: Arkham City | `01003F00163CE000` | `E7E57340FB0313D1` (◯, v1, 1.0.1) | 🟢 |  |
+| Batman: Arkham Knight | `0100ACD0163D0000` | `7E82B6E57F467EC4` (◯, v2, 1.0.2) | 🟢 |  |
 | Batman: The Enemy Within | `0100E6300AA3A000` | `AAC6FB02E03062EF` (❌, v1, 1.0.3) | 🔵 | [LINK](Methodology/Batman%20The%20Enemy%20Within) |
 | Batora: Lost Haven | `0100A93016BF4000` | `770A07C35E631CB2` ([✅](SaltySD/plugins/FPSLocker/patches/0100A93016BF4000/770A07C35E631CB2.yaml), v1, 1.0.1) | 🔴 | [LINK](Methodology/Batora%20Lost%20Haven) |
 | Bassmaster Fishing 2022 | `0100B8501771A000` | `78BF042012CF9EE8` ([✅](SaltySD/plugins/FPSLocker/patches/0100B8501771A000/78BF042012CF9EE8.yaml), v2, 1.02) | 🔵 | [LINK](Methodology/Bassmaster%20Fishing%202022%20Super%20Deluxe%20Edition) |
@@ -171,6 +174,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Dragon's Dogma: Dark Arisen | `010032C00AC58000` <br> `010057E00AC56000` | `2CDB9B9D70010E88` ([✅](SaltySD/plugins/FPSLocker/patches/010032C00AC58000/2CDB9B9D70010E88.yaml), v1, 1.0.1) <br> `2D5B93C856CDF009` ([✅](SaltySD/plugins/FPSLocker/patches/010057E00AC56000/2D5B93C856CDF009.yaml), v1, 1.0.1) | 🔴 |  |
 | DRAGON BALL XENOVERSE 2 | `010078D000F88000` | `ACD8DFEFD0EA5316` (❌, v27, 1.20.01) | 🔴 |  |
 | DRAGON BALL Z: KAKAROT | `010051C0134F8000` | `13B450093A7DA8E2` ([✅](SaltySD/plugins/FPSLocker/patches/010051C0134F8000/13B450093A7DA8E2.yaml), v8, 1.32) <br> `0C1B09D4D2FD0972` ([✅](SaltySD/plugins/FPSLocker/patches/010051C0134F8000/0C1B09D4D2FD0972.yaml), v10, 1.41) | 🔴 |  |
+| DRAGON QUEST MONSTERS: The Dark Prince | `0100A77018EA0000` | `430C4F089C9C3045` (◯, v1, 1.0.1) | 🟢 |  |
 | DRAGON QUEST XI S: Echoes of an Elusive Age | `01006C300E9F0000` | `1719AABFA5EAE42B` ([✅](SaltySD/plugins/FPSLocker/patches/01006C300E9F0000/1719AABFA5EAE42B.yaml), v3, 1.0.3) | 🔵 | [LINK](Methodology/Dragon%20Quest%20XI%20S) |
 | DRAGON QUEST TREASURES | `010049B017774000` | `2F81A2EC9B298B37` ([✅](SaltySD/plugins/FPSLocker/patches/010049B017774000/2F81A2EC9B298B37.yaml), v1, 1.0.1) | 🔴 |  |
 | Dredge | `01008CD0172D6000` | `68B7A194A9BF046A` (❌, v3, 1.0.3) <br> `D16558D855603353` ([✅](SaltySD/plugins/FPSLocker/patches/01008CD0172D6000/D16558D855603353.yaml), v4, 1.1.0) | 🟡 |  |
@@ -406,7 +410,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | SnowRunner | `0100FBD013AB6000` | `84E92A9A50DF4644` (❌, v16, 1.0.16) | 🔵 | [LINK](Methodology/SnowRunner) |
 | Song of Nunu: A League of Legends Story | `01004F401BEBE000` | `5507B771E68E9DB9` ([✅](SaltySD/plugins/FPSLocker/patches/01004F401BEBE000/5507B771E68E9DB9.yaml), v1, 1.0.1) | 🔵 |
 | Sonic Colours: Ultimate | `010040E0116B8000` | `957E1E19958193F9` (◯, v7, 1.0.9) | 🟢 |  |
-| SONIC FORCES | `0100111004460000` <br> `01001270012B6000` | `6D9EA94F8AAC00A8` (❌, v1, 1.1.0) | 🔴 | [LINK](Methodology/SONIC%20FORCES/README.md) |
+| SONIC FORCES | `01001270012B6000` | `6D9EA94F8AAC00A8` ([✅](SaltySD/plugins/FPSLocker/patches/01001270012B6000/6D9EA94F8AAC00A8.yaml), v1, 1.1.0) | 🔴 |  |
+| SONIC FORCES DIGITAL BONUS EDITION | `0100111004460000` | `6D9EA94F8AAC00A8` ([✅](SaltySD/plugins/FPSLocker/patches/0100111004460000/6D9EA94F8AAC00A8.yaml), v1, 1.1.0) | 🔴 |  |
 | Sonic Frontiers | `01004AD014BF0000` | `AE548A35FD9DF5DA` (❌, v4, 1.2.0) | 🔴 | [LINK](Methodology/SONIC%20FRONTIERS) |
 | Soundfall | `0100B7A01386E000` | `39F1BCCB912A12DF` ([✅](SaltySD/plugins/FPSLocker/patches/0100B7A01386E000/39F1BCCB912A12DF.yaml), v3, 1.3.17957) | 🔵 | [LINK](Methodology/Soundfall) |
 | South of the Circle | `0100E97016F60000` | `4FB83BAB154A2B56` (◯, v3, 1.0.3) | 🟢 |  |
