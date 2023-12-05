@@ -415,8 +415,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Sonic Frontiers | `01004AD014BF0000` | `AE548A35FD9DF5DA` (❌, v4, 1.2.0) | 🔴 | [LINK](Methodology/SONIC%20FRONTIERS) |
 | Soundfall | `0100B7A01386E000` | `39F1BCCB912A12DF` ([✅](SaltySD/plugins/FPSLocker/patches/0100B7A01386E000/39F1BCCB912A12DF.yaml), v3, 1.3.17957) | 🔵 | [LINK](Methodology/Soundfall) |
 | South of the Circle | `0100E97016F60000` | `4FB83BAB154A2B56` (◯, v3, 1.0.3) | 🟢 |  |
-| South Park: The Fractured But Whole | `01008F2005154000` | `DF15EDAAF603E00C` (❌, v5, 1.05) | 🔵 |  |
-| South Park: The Stick Of Truth | `010095300B6A4000` | `BB789D7392B165F5` (❌, v1, 1.01) | 🔴 |  |
+| South Park: The Fractured But Whole | `01008F2005154000` | `DF15EDAAF603E00C` (❌, v5, 1.05) | 🔵 | [LINK](Methodology/South%20Park%20The%20Fractured%20But%20Whole) |
+| South Park: The Stick Of Truth | `010095300B6A4000` <br> `010043600B6A6000` | `BB789D7392B165F5` (❌, v1, 1.01) <br> `5BEA90B5335C9B60` (❌, v1, 1.01) | 🔴 | [LINK](Methodology/South%20Park%20The%20Stick%20of%20Truth) |
 | Space Tail: Every Journey Leads Home | `0100C37019BC2000` | `0CD7D5F5600CB448` (◯, v1, 1.0.1) | 🟢 |  |
 | Speed Crew | `0100C1201A558000` | `A4B0BEB6373421B6` (◯, v1, 1.0.1) | 🟢 |  |
 | Spiritfarer | `0100BD400DC52000` | `482B575F4CCE512B` (◯, v15, 1.15) | 🟢 |  |
@@ -444,6 +444,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | The Dark Pictures Anthology: Man of Medan | `0100711017B30000` | `D7D0827ABE36A00D` ([✅](SaltySD/plugins/FPSLocker/patches/0100711017B30000/D7D0827ABE36A00D.yaml), v0, 1.0.0) <br> `2C7A626BA5F25D5F` ([✅](SaltySD/plugins/FPSLocker/patches/0100711017B30000/2C7A626BA5F25D5F.yaml), v1, 1.0.1) | 🔴 |  | 
 | The Elder Scrolls V: Skyrim | `01000A10041EA000` | `771BDFB65F8D0AF7` ([✅](SaltySD/plugins/FPSLocker/patches/01000A10041EA000/771BDFB65F8D0AF7.yaml), v4, 1.1.177.3285177) | 🔵 | [LINK](Methodology/The%20Elder%20Scrolls%20V%20Skyrim) |
 | The Entropy Centre | `0100DDD01ACAA000` | `7AF502E140C13759` (❌, v1, 1.0.1) | 🔵 |  |
+| The Forest Quartet | `010010A01BBF4000` | `C66F68F53A4A7053` ([✅](SaltySD/plugins/FPSLocker/patches/010010A01BBF4000/C66F68F53A4A7053.yaml), v1, 4.0.1) | 🔵 |  |
 | The Great Ace Attorney Chronicles | `010036E00FB20000` <br> `0100D7F00FB1A000` | `1DA748FC9499882F` ([✅](SaltySD/plugins/FPSLocker/patches/010036E00FB20000/1DA748FC9499882F.yaml), v0, 1.0.0) <br> `D871B992E95B71C5` ([✅](SaltySD/plugins/FPSLocker/patches/0100D7F00FB1A000/D871B992E95B71C5.yaml), v0, 1.0.0) | 🔴 | [LINK](Methodology/The%20Great%20Ace%20Attorney%20Chronicles) |
 | The Knight Witch | `0100E8501816E000` | `9C09F15234A270E4` (◯, v5, 1.0.5) | 🟢 |  |
 | The Last Worker | `0100ADC014CDE000` | `DAAADE43EA48F66B` (◯, v2, 1.0.4) | 🟢 |  |
