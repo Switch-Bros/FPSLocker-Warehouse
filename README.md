@@ -48,7 +48,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Alan Wake Remastered | `0100623017A58000` | `6520258D00AEA915` (❌, v1, 1.0.1) | 🔵 | [LINK](Methodology/Alan%20Wake) |
 | Alchemy Garden | `0100A4101AC26000` | `FB73B824FB53892E` (❌, v1, 1.0.1) | 🔵 |  |
 | Alfred Hitchcock - Vertigo | `0100DC7013F14000` | `9D5ABEC66FEC1D77` (◯, v1, 1.0.1) | 🟢 |  |
-| Alien: Isolation | `010075D00E8BA000` | `397C054A3D25D488` (◯, v4, 1.1.4_60709) | 🟢 |  |
+| Alien: Isolation | `010075D00E8BA000` | `397C054A3D25D488` (◯, v5, 1.1.5_64113) | 🟢 |  |
 | Alterity Experience | `010056F0186D0000` | `E4F041624093998D` (◯, v2, 2.0) | 🟢 |  |
 | American Fugitive | `010002B00C534000` | `375A0E11B2397340` (◯, v9, 1.1.1) | 🟢 |  |
 | Ancestors Legacy | `01009EE0111CC000` | `EE20B8DD92B8F9B4` ([✅](SaltySD/plugins/FPSLocker/patches/01009EE0111CC000/EE20B8DD92B8F9B4.yaml), v1, 1.1.0) <br> `E1F0CFC02F449EF3` ([✅](SaltySD/plugins/FPSLocker/patches/01009EE0111CC000/E1F0CFC02F449EF3.yaml), v2, 1.2.0) | 🔴 | [LINK](Methodology/Ancestors%20Legacy) |
@@ -156,7 +156,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Darksiders III | `0100F8F014190000` | `AF7114F019CE6E1D` ([✅](SaltySD/plugins/FPSLocker/patches/0100F8F014190000/AF7114F019CE6E1D.yaml), v1, 1.0.1) | 🔵 | [LINK](Methodology/Darksiders%20III) |
 | DAVE THE DIVER | `010097F018538000` | `CF403117A8069A7F` (◯, v9, 1.0.1.548) | 🟢 |  |
 | Dawn of the Monsters | `01006960155C4000` | `6E6BE8185BB7E140` (◯, v2, 1.2.1) | 🟢 |  |
-| DC's Justice League: Cosmic Chaos | `0100157015DD8000` | `6F52F2A81373246B` (◯, v2, 1.0.2) | 🟢 |  |
+| DC's Justice League: Cosmic Chaos | `0100157015DD8000` | `756D43D84F8F1617` (◯, v3, 1.0.3) | 🟢 |  |
 | Death end re;Quest | `0100AEC013DDA000` | `2F5554EBECAE652B` (❌, v1, 1.0.1) | 🔵 | [LINK](Methodology/Death%20End%20Re%3BQuest) |
 | Death end re;Quest 2 | `0100EB701568A000` | `6A06F3A2582C0954` (❌, v0, 1.0.0) | 🔵 | [LINK](Methodology/Death%20End%20Re%3BQuest%202) |
 | Death's Door | `0100B31015AF8000` | `0D20B5FF11828346` (◯, v3, 1.1.6a) | 🟢 |  |
@@ -291,8 +291,8 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Märchen Forest | `01001B2012D5E000` | `7A7C634CDAFE7D42` (◯, v7, 1.0.7) | 🟢 |  |
 | Master Detective Archives: RAIN CODE | `01004800197F0000` <br> `0100149019460000` | `2058227F80E9B40C` ([✅](SaltySD/plugins/FPSLocker/patches/01004800197F0000/2058227F80E9B40C.yaml), v3, 1.3.0) <br> `6D722DED660CD6E3` ([✅](SaltySD/plugins/FPSLocker/patches/01004800197F0000/6D722DED660CD6E3.yaml), v5, 1.3.2) <br> `B1C54D7E3540577B` ([✅](SaltySD/plugins/FPSLocker/patches/01004800197F0000/B1C54D7E3540577B.yaml), v6, 1.3.3) <br> `B9E42653FB44EF2B` ([✅](SaltySD/plugins/FPSLocker/patches/0100149019460000/B9E42653FB44EF2B.yaml), v7, 1.4.0) <br> `F4685ACC91FEDB12` ([✅](SaltySD/plugins/FPSLocker/patches/01004800197F0000/F4685ACC91FEDB12.yaml), v7, 1.4.0) | 🔴 |  |
 | Masters of Anima | `0100CC7009196000` | `B1C8B55EBD400E57` (◯, v1, 1.0.1) | 🟢 |  |
-| Metal Gear Solid 2: Sons of Liberty | `0100A4301AA0C000` | `9E762F59BA61292A` (❌, v6, 1.3.1) | 🟡 |  |
-| Metal Gear Solid 3: Snake Eater | `010047F01AA10000` | `E23C078882FDA06D` (❌, v6, 1.3.0) | 🟡 |  |
+| Metal Gear Solid 2: Sons of Liberty | `0100A4301AA0C000` | `988818E73742D675` (❌, v7, 1.4.0) | 🟡 |  |
+| Metal Gear Solid 3: Snake Eater | `010047F01AA10000` | `E0FF6736867E0201` (❌, v7, 1.4.0) | 🟡 |  |
 | Metro 2033 Redux | `0100D4900E82C000` | `85C362CC9790F0ED` ([✅](SaltySD/plugins/FPSLocker/patches/0100D4900E82C000/85C362CC9790F0ED.yaml), v0, 1.0.0) | 🔵 | [LINK](Methodology/Metro%20Redux%20Collection) |
 | Metro: Last Light Redux | `0100F0400E850000` | `85C362CC9790F0ED` ([✅](SaltySD/plugins/FPSLocker/patches/0100F0400E850000/85C362CC9790F0ED.yaml), v0, 1.0.0) | 🔵 | [LINK](Methodology/Metro%20Redux%20Collection) |
 | Minecraft Dungeons | `01006C100EC08000` | `13F573E3017996E4` (◯, v27, 1.17.0.0) | 🟢 |  |
@@ -334,7 +334,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Off the Road Unleashed | `010045C0112F8000` | `5E8316D212D6D7BD` (◯, v1, 1.0.1) | 🟢 |  |
 | Oninaki | `01001AF00CE54000` | `C949E2576F532C43` (◯, v2, 1.0.2) | 🟢 |  |
 | Othercide | `0100E5900F49A000` | `A8BA2A8F93AAE647` ([✅](SaltySD/plugins/FPSLocker/patches/0100E5900F49A000/A8BA2A8F93AAE647.yaml), v3, 1.3.0.5) | 🔵 |  |
-| Outer Wilds | `01003DC0144B6000` | `30DAEEF64B06974C` (❌, v1, 1.1.14.841) | 🟡 | [LINK](Methodology/Outer%20Wilds) |
+| Outer Wilds | `01003DC0144B6000` | `6D84C98833E0A849` (❌, v2, 1.1.14.856) | 🟡 | [LINK](Methodology/Outer%20Wilds) |
 | Outlast | `01008D4007A1E000` | `C3D46BB3C7059DB1` ([✅](SaltySD/plugins/FPSLocker/patches/01008D4007A1E000/C3D46BB3C7059DB1.yaml), v1, 1.0.1) | 🔵 |  |
 | Outlast 2 | `0100DE70085E8000` | `F18ACDA7A71CB287` ([✅](SaltySD/plugins/FPSLocker/patches/0100DE70085E8000/F18ACDA7A11CB287.yaml), v0, 1.0.0) | 🔵 |  |
 | Overcooked! Special Edition | `01009B900401E000` | `41D554623A3F4341` (◯, v4, 1.1.1) | 🟢 |  |
@@ -367,7 +367,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | PowerWash Simulator | `0100926016012000` | `E44D9EFDB2F1D0A6` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/E44D9EFDB2F1D0A6.yaml), v5, 1.2.1) <br> `FCFC7462E8DC0E6D` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/FCFC7462E8DC0E6D.yaml), v10, 1.5.2) | 🔴 |  |
 | Prison Simulator | `010094C017B06000` | `56C709E1A63CF9EA` (◯, v0, 1.0.0) | 🟢 |  |
 | Project Warlock | `0100BDB01150E000` | `D597DE8544D8ED4F` (◯, v3, 1.0.3) | 🟢 |  |
-| Raccoo Venture | `0100C1E01CDEE000` | `7CDFB80365E4D30C` ([✅](SaltySD/plugins/FPSLocker/patches/0100C1E01CDEE000/7CDFB80365E4D30C.yaml), v1, 1.0.1) | 🔴 |  |
+| Raccoo Venture | `0100C1E01CDEE000` | `7CDFB80365E4D30C` ([✅](SaltySD/plugins/FPSLocker/patches/0100C1E01CDEE000/7CDFB80365E4D30C.yaml), v1, 1.0.1) <br> `5F0C6E385D6E3F8D` ([✅](SaltySD/plugins/FPSLocker/patches/0100C1E01CDEE000/5F0C6E385D6E3F8D.yaml), v2, 1.0.2) | 🔴 |  |
 | Rad Rogers: Radical Edition | `010000600CD54000` | `78885A1CA987C04C` ([✅](SaltySD/plugins/FPSLocker/patches/010000600CD54000/78885A1CA987C04C.yaml), v2, 1.2.0) | 🔴 | [LINK](Methodology/Rad%20Rogers) |
 | Rain World | `010047600BF72000` | `BEC01A3CE1E33E93` (◯, v8, 1.9.13) | 🟢 |  |
 | RAINBOW HIGH: RUNWAY RUSH | `010039E0182D8000` | `8ECB01C6E7E4F50C` (◯, v0, 1.0.0) | 🟢 |  |
