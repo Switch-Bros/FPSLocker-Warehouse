@@ -242,7 +242,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Hokko Life | `010022A016250000` | `D9D13603133F3D89` (◯, v5, 1.0.5) | 🟢 |  |
 | Horizon Chase 2 | `0100001019F6E000` | `3CE4DB955A23026E` ([✅](SaltySD/plugins/FPSLocker/patches/0100001019F6E000/3CE4DB955A23026E.yaml), v3, 1.5.2) <br> `95B2E97C5D16385A` ([✅](SaltySD/plugins/FPSLocker/patches/0100001019F6E000/95B2E97C5D16385A.yaml), v4, 1.5.4) | 🔴 |  |
 | HOT WHEELS UNLEASHED | `0100AA60136D2000` | `F73C6504D378C38B` ([✅](SaltySD/plugins/FPSLocker/patches/0100AA60136D2000/F73C6504D378C38B.yaml), v13, 1.0.13) | 🔵 | [LINK](Methodology/HOT%20WHEELS%20UNLEASHED) |
-| HOT WHEELS UNLEASHED 2 | `01001BE01908C000` | `012294C1E2D28A79` ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01908C000/012294C1E2D28A79.yaml), v1, 1.0.1) <br> `EBD417A7EB6B5486` ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01908C000/EBD417A7EB6B5486.yaml), v4, 1.0.4) | 🔵 | [LINK](Methodology/HOT%20WHEELS%20UNLEASHED%202) |
+| HOT WHEELS UNLEASHED 2 | `01001BE01908C000` | `012294C1E2D28A79` ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01908C000/012294C1E2D28A79.yaml), v1, 1.0.1) <br> `EBD417A7EB6B5486` ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01908C000/EBD417A7EB6B5486.yaml), v4, 1.0.4) <br> `3973FB8AC2750BE4` ([✅](SaltySD/plugins/FPSLocker/patches/01001BE01908C000/3973FB8AC2750BE4.yaml), v5, 1.0.5) | 🔵 | [LINK](Methodology/HOT%20WHEELS%20UNLEASHED%202) |
 | House Flipper | `0100CAE00EB02000` | `F9A9ED87D4C23B48` (◯, v9, 1.9.0) | 🟢 |  |
 | HYPERCHARGE: Unboxed | `0100A8B00F0B4000` | `92511355705EA8C5` ([✅](SaltySD/plugins/FPSLocker/patches/0100A8B00F0B4000/92511355705EA8C5.yaml), v5, 0.1.2341.233) | 🔵 | [LINK](Methodology/HYPERCHARGE%20Unboxed) |
 | Hyrule Warriors: Age of Calamity | `01002B00111A2000` | `C3CF52BF2B05D731` ([✅](SaltySD/plugins/FPSLocker/patches/01002B00111A2000/C3CF52BF2B05D731.yaml), v5, 1.3.0) | 🔴 |  |
@@ -256,6 +256,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Ion Fury | `010041C00D086000` | `9D2EFCF198F2247F` (◯, v4, 1.07.1) | 🔴 | [LINK](Methodology/Ion%20Fury) |
 | Ironsmith: Medieval Simulator | `010025A01CD86000` | `D2A5A1FC6EEADF31` ([✅](SaltySD/plugins/FPSLocker/patches/010025A01CD86000/D2A5A1FC6EEADF31.yaml), v1, 1.1.0) | 🔵 |  |
 | It Takes Two | `010092A0172E4000` | `C4067E8CB3258656` ([✅](SaltySD/plugins/FPSLocker/patches/010092A0172E4000/C4067E8CB3258656.yaml), v2, 1.0.2) | 🔵 | [LINK](Methodology/It%20Takes%20Two) |
+| JUMP FORCE | `010019D010F0E000` <br> `0100183010F12000` | `1667568420912C73` (❌, v7, 1.08) | 🟡 |  |
 | Kao the Kangaroo | `0100956016464000` <br> `010078C01769A000` | `F9C83728910E28A4` ([✅](SaltySD/plugins/FPSLocker/patches/0100956016464000/F9C83728910E28A4.yaml), v5, 1.5) <br> `7BA282E94D34C620` ([✅](SaltySD/plugins/FPSLocker/patches/010078C01769A000/7BA282E94D34C620.yaml), v5, 1.5) | 🔵 | [LINK](Methodology/Kao%20The%20Kangaroo) |
 | Kingdoms of Amalur: Re-Reckoning | `0100EF50132BE000` | `FA48B344ED72F24D` (◯, v7, 1.0.7) | 🟢 |  |
 | Kitaria Fables | `0100F30013BFC000` | `220AA80516734F4C` (◯, v3, 1.0.3) | 🟢 |  |
@@ -364,7 +365,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Pokemon Violet | `01008F6008C5E000` | `AC70E41BB699CB9F` (❌, v4, 1.3.0) | 🟡 | [LINK](Methodology/Pokemon%20Violet) |
 | Portal Knights | `0100437004170000` | `D59D81C06F923846` (❌, v8, 1.7.2) | 🔵 |  |
 | Potion Permit | `010025F0126FE000` | `C7249836825D1750` (◯, v11, 1.0.11) | 🟢 |  |
-| PowerWash Simulator | `0100926016012000` | `E44D9EFDB2F1D0A6` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/E44D9EFDB2F1D0A6.yaml), v5, 1.2.1) <br> `FCFC7462E8DC0E6D` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/FCFC7462E8DC0E6D.yaml), v10, 1.5.2) | 🔴 |  |
+| PowerWash Simulator | `0100926016012000` | `E44D9EFDB2F1D0A6` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/E44D9EFDB2F1D0A6.yaml), v5, 1.2.1) <br> `FCFC7462E8DC0E6D` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/FCFC7462E8DC0E6D.yaml), v10, 1.5.2) <br> `E71C3103420D9574` ([✅](SaltySD/plugins/FPSLocker/patches/0100926016012000/E71C3103420D9574.yaml), v11, 1.6.0) | 🔴 |  |
 | Prison Simulator | `010094C017B06000` | `56C709E1A63CF9EA` (◯, v0, 1.0.0) | 🟢 |  |
 | Project Warlock | `0100BDB01150E000` | `D597DE8544D8ED4F` (◯, v3, 1.0.3) | 🟢 |  |
 | Raccoo Venture | `0100C1E01CDEE000` | `7CDFB80365E4D30C` ([✅](SaltySD/plugins/FPSLocker/patches/0100C1E01CDEE000/7CDFB80365E4D30C.yaml), v1, 1.0.1) <br> `5F0C6E385D6E3F8D` ([✅](SaltySD/plugins/FPSLocker/patches/0100C1E01CDEE000/5F0C6E385D6E3F8D.yaml), v2, 1.0.2) | 🔴 |  |
@@ -389,7 +390,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Samurai Jack: Battle Through Time | `01006C600E46E000` | `6D5DB3434CCF63F2` ([✅](SaltySD/plugins/FPSLocker/patches/01006C600E46E000/6D5DB3434CCF63F2.yaml), v3, 1.0.3) | 🔴 | [LINK](Methodology/Samurai%20Jack%20Battle%20Through%20Time) |
 | SAMURAI WARRIORS 5 | `0100B28014132000` | `810CBA3D7DB83EC0` ([✅](SaltySD/plugins/FPSLocker/patches/0100B28014132000/810CBA3D7DB83EC0.yaml), v3, 1.0.3) | 🔴 |  |
 | SD GUNDAM BATTLE ALLIANCE | `01002BE016054000` | `751420FADE402804` ([✅](SaltySD/plugins/FPSLocker/patches/01002BE016054000/751420FADE402804.yaml), v7, 1.4.0) | 🔵 |  |
-| SD シン・仮面ライダー 乱舞 | `0100CD40192AC000` | `0CE81E716AFFE42A` (◯, v1, 1.0.1) | 🟢 |  |
+| SD シン・仮面ライダー 乱舞 | `0100CD40192AC000` | `651CF2EC3862B82B` (◯, v2, 1.0.2) | 🟢 |  |
 | SENRAN KAGURA Peach Ball | `01004DC00D936000` | `31CDAD67EA25CC16` ([✅](SaltySD/plugins/FPSLocker/patches/01004DC00D936000/31CDAD67EA25CC16.yaml), v0, 1.0.0) | 🔴 | [LINK](Methodology/SENRAN%20KAGURA%20Peach%20Ball) |
 | Severed Steel | `0100E1C0148F8000` | `77C053D779EE97F6` ([✅](SaltySD/plugins/FPSLocker/patches/0100E1C0148F8000/77C053D779EE97F6.yaml), v2, 1.0.2) | 🔵 | [LINK](Methodology/Severed%20Steel) |
 | Session: Skate Sim | `010023001969A000` | `BF4126341134BFC7` ([✅](SaltySD/plugins/FPSLocker/patches/010023001969A000/BF4126341134BFC7.yaml), v3, 1.1.2) | 🔵 |  |
@@ -413,7 +414,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | Sniper Elite 4 | `010007B010FCC000` | `4EEA2970DF38ECE1` ([✅](SaltySD/plugins/FPSLocker/patches/010007B010FCC000/4EEA2970DF38ECE1.yaml), v3, 1.0.3) | 🔵 |  | 
 | Sniper Elite V2 | `0100BB000A3AA000` | `B61F280560A937D2` ([✅](SaltySD/plugins/FPSLocker/patches/0100BB000A3AA000/B61F280560A937D2.yaml), v5, 1.0.5) | 🔵 | [LINK](Methodology/Sniper%20Elite%20V2) | 
 | SnowRunner | `0100FBD013AB6000` | `D45BC89E992F23C5` ([✅](SaltySD/plugins/FPSLocker/patches/0100FBD013AB6000/D45BC89E992F23C5.yaml), v23, 1.0.23) | 🔵 |  |
-| Song of Nunu: A League of Legends Story | `01004F401BEBE000` | `5507B771E68E9DB9` ([✅](SaltySD/plugins/FPSLocker/patches/01004F401BEBE000/5507B771E68E9DB9.yaml), v1, 1.0.1) | 🔵 |
+| Song of Nunu: A League of Legends Story | `01004F401BEBE000` | `5507B771E68E9DB9` ([✅](SaltySD/plugins/FPSLocker/patches/01004F401BEBE000/5507B771E68E9DB9.yaml), v1, 1.0.1) <br> `DF2D64FB63F1BD00` ([✅](SaltySD/plugins/FPSLocker/patches/01004F401BEBE000/DF2D64FB63F1BD00.yaml), v2, 1.0.2) | 🔵 |
 | Sonic Colours: Ultimate | `010040E0116B8000` | `957E1E19958193F9` (◯, v7, 1.0.9) | 🟢 |  |
 | SONIC FORCES | `01001270012B6000` | `6D9EA94F8AAC00A8` ([✅](SaltySD/plugins/FPSLocker/patches/01001270012B6000/6D9EA94F8AAC00A8.yaml), v1, 1.1.0) | 🔴 |  |
 | SONIC FORCES DIGITAL BONUS EDITION | `0100111004460000` | `6D9EA94F8AAC00A8` ([✅](SaltySD/plugins/FPSLocker/patches/0100111004460000/6D9EA94F8AAC00A8.yaml), v1, 1.1.0) | 🔴 |  |
@@ -516,6 +517,7 @@ DETAILS contains links to documents explaining why patch is necessary, possible 
 | 妖怪ウォッチ4++ | `010086C00AF7C000` | `C7DAB27F22ACD2ED` ([✅](SaltySD/plugins/FPSLocker/patches/010086C00AF7C000/C7DAB27F22ACD2ED.yaml), v14, 2.2.0) | 🟡 |  |
 | 英雄伝説 閃の軌跡I：改 -Thors Military Academy 1204- | `0100AD0014AB4000` | `AC8C8EC9DB1A8EF4` ([✅](SaltySD/plugins/FPSLocker/patches/0100AD0014AB4000/AC8C8EC9DB1A8EF4.yaml), v3, 1.0.3) | 🔴 | [LINK](Methodology/The%20Legend%20of%20Heroes%20Trails%20of%20Cold%20Steel) |
 | 英雄伝説 閃の軌跡II：改 -The Erebonian Civil War- | `0100906014C3C000` | `EAB1DC1D53E319F9` ([✅](SaltySD/plugins/FPSLocker/patches/0100906014C3C000/EAB1DC1D53E319F9.yaml), v5, 1.0.5) | 🔴 | [LINK](Methodology/The%20Legend%20of%20Heroes%20Trails%20of%20Cold%20Steel%20II) |
+| ドラゴンクエストX　目覚めし五つの種族　オフライン | `0100E2E0152E4000` | `13F322A6161F787C` ([✅](SaltySD/plugins/FPSLocker/patches/0100E2E0152E4000/13F322A6161F787C.yaml), v4, 2.0.1) | 🔵 |  |
 
 ---
 
