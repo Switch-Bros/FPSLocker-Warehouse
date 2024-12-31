@@ -3,8 +3,13 @@
 Patches are converted from YAML files that are tied to the buildid of games, so each one must be designed specifically for one version of one game.
 Patches write/read values only from RAM mappings that allow reading and writing (`RW-`). So they don't support patching `R-X` mappings.
 
-YAML file consists of 11 keys:
+YAML file consists of keys:
 - `unsafeCheck` - setting it to `true` results in the plugin not checking if an address is valid. It is recommended to leave it at `false` if you use HEAP related address
+- `ALL_FPS`
+- `ALL_REFRESH_RATES` (doesn't work if ALL_FPS is not defined)
+- `MASTER_WRITE`
+
+if `ALL_FPS` is not defined, those are required to exist:
 - `15FPS`
 - `20FPS`
 - `25FPS`
@@ -16,7 +21,7 @@ YAML file consists of 11 keys:
 - `55FPS`
 - `60FPS`
 
-Each `*FPS` dict is `a list of dicts`. Examples:
+Each key except of unsafeCheck is `a list of dicts`. Examples:
 ```yaml
 15FPS:
   -
@@ -30,7 +35,7 @@ Each `*FPS` dict is `a list of dicts`. Examples:
 
 ```
 ```yaml
-60FPS:
+ALL_FPS:
   -
     type: compare
     compare_address: [MAIN, 0x1A65958]
@@ -41,18 +46,14 @@ Each `*FPS` dict is `a list of dicts`. Examples:
     value_type: int32
     value: [1, 1]
   -
-    type: compare
-    compare_address: [MAIN, 0x1A65958]
-    compare_type: "!="
-    compare_value_type: int8
-    compare_value: 0
-    address: [MAIN, 0x1A08F98]
-    value_type: int32
-    value: [2, 2]
+    type: evaluate_write
+    address: [MAIN, 0x12257C30, 0x434]
+    value_type: float
+    value: FPS_TARGET
 
 ```
 
-What should be written in each dict depends on `type`.
+What should be written in each dict depends on `type`. List of commands accepted by all keys except `MASTER_WRITE`:
 
 > type: write
 
@@ -60,6 +61,10 @@ Write a static value to provided `address`
 - `address` - always starts with one of the regions: `MAIN`, `HEAP`, or `ALIAS`. Next, we have offsets. If the offset is not the last one, it is treated as a pointer address. In provided first example we read the pointer from `MAIN + 0x12257C30` and add to it `0x434` to get a final address.
 - `value_type` - check "Supported types".
 - `value` - what value we will write into provided address. Remember that if `value_type` is set to any integer, don't use decimals. You may write a list of values into it that will be applied one after another.
+
+> type: evaluate_write
+
+It's the same as `write` with one big difference - it is used to write expressions in `value`. More about expressions at the bottom of file.
 
 > type: compare
 
@@ -72,10 +77,19 @@ Compare the value from provided `compare_address` with a static `compare_value` 
 - `value_type` - check "Supported types".
 - `value` - what value we will write into provided address. Remember that if `value_type` is set to any integer, don't use decimals. You may write a list of values into it that will be applied one after another.
 
+> type: evaluate_compare
+
+It's the same as `compare` with one big difference - it is used to write expressions in `value`. More about expressions at the bottom of file.
+
 > type: block<br>
 - `what` - supported commands:
-  - `timing` - it blocks FPSLocker internal frame delay. It is advised to use it when we want to use the game's proprietary FPS lock. This is automatically applied for 30 FPS and 60 FPS in games using NVN API.
+  - `timing` - it blocks FPSLocker internal frame delay. It is advised to use it when we want to use the game's proprietary FPS lock. This is automatically applied when FPS target matches refresh rate + 30 FPS if refresh rate is set to 60 Hz.
 
+Commands supported by MASTER_WRITE:
+- `bytes` - this is used to write data into main executable, it can write to any part of executable, even read only. It's applied only before game actually starts.
+  - `main_offset` - where value should be written relative to `main` executable start in RAM.
+  - `value_type` - check "Supported types".
+  - `value` - what value we will write into provided address. Remember that if `value_type` is set to any integer, don't use decimals. You may write a list of values into it that will be applied one after another.
 ---
 
 # Supported types
@@ -99,3 +113,19 @@ Compare the value from provided `compare_address` with a static `compare_value` 
   - `uint64`
   - `float`
   - `double`
+
+- `value_type` exclusive for non-`MASTER_WRITE` keys:
+  - `refresh_rate` (forces chosen refresh rate, supports decimals. When used, address has no impact, as long as it's using valid data)
+
+# Expressions
+
+For expressions evaluation is used TinyExpr library. It support various math C functions with addition to FPSLocker that includes globals and one additional function.
+
+Additional function:
+- `TruncDec([Value], [Dec])` - This function removes decimals from "Value". With "Dec" we can control how many decimals we will leave. For example if we write `TruncDec(FRAMETIME_TARGET, 2)` it will result in `33.33` when 30 FPS is chosen.
+
+Globals (all are stored as double and converted to chosen value_type):
+- `FPS_TARGET` - it returns value corresponding to chosen FPS target in FPSLocker.
+- `FRAMETIME_TARGET` = `1000 / FPS_TARGET`
+- `VSYNC_TARGET` = `60 / FPS_TARGET` without decimals
+- `FPS_LOCK_TARGET` - similar to FPS_TARGET with the difference that if FPS target chosen in FPSLocker matches refresh rate, it is equal to 120 to avoid stutterings caused by artifical FPS lock.

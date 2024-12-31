@@ -95,8 +95,8 @@ MASTER_WRITE:
       - 0xF9464422
       - 0xF9064420
       - 0xCB020000
-      - 0x528502A2
-      - 0x72A00FE2
+      - 0xD503201F
+      - 0xB94D0822
       - 0x52881541
       - 0x72A07F21
       - 0xEB01001F
@@ -193,124 +193,38 @@ MASTER_WRITE:
     main_offset: 0x2D65C94
     value_type: int32
     value: -2
-15FPS:
+  # Default min delta
+  -
+    type: bytes
+    main_offset: 0x2D65D08
+    value_type: int32
+    value: 33333333
+ALL_FPS:
   # DR GPU Time Factor
   -
-    type: write
+    type: evaluate_write
     address: [MAIN, 0x2D65C80]
     value_type: float
-    value: 0.0005
-  # DR GPU Time Factor
+    value: "(FPS_TARGET / 30) * 0.001"
+  # Set Min delta
   -
-    type: write
+    type: evaluate_write
+    address: [MAIN, 0x2D65D08]
+    value_type: uint32
+    value: "FRAMETIME_TARGET * 1000000"
+  # Default vsync
+  -
+    type: evaluate_write
     address: [MAIN, 0x2D65C94]
     value_type: int32
-    value: -4
-20FPS:
-  # DR GPU Time Factor
+    value: "VSYNC_TARGET * -1"
+  # Prerendered cutscenes must be played at 30 FPS
   -
-    type: write
-    address: [MAIN, 0x2D65C80]
-    value_type: float
-    value: 0.000667
-  -
-    type: write
-    address: [MAIN, 0x2D65C94]
-    value_type: int32
-    value: -3
-25FPS:
-  # DR GPU Time Factor
-  -
-    type: write
-    address: [MAIN, 0x2D65C80]
-    value_type: float
-    value: 0.000834
-  -
-    type: write
-    address: [MAIN, 0x2D65C94]
-    value_type: int32
-    value: -2
-30FPS:
-  # DR GPU Time Factor (default value)
-  -
-    type: write
-    address: [MAIN, 0x2D65C80]
-    value_type: float
-    value: 0.001
-  -
-    type: write
-    address: [MAIN, 0x2D65C94]
-    value_type: int32
-    value: -2
-35FPS:
-  # DR GPU Time Factor
-  -
-    type: write
-    address: [MAIN, 0x2D65C80]
-    value_type: float
-    value: 0.00117
-  -
-    type: write
-    address: [MAIN, 0x2D65C94]
-    value_type: int32
-    value: -1
-40FPS:
-  # DR GPU Time Factor
-  -
-    type: write
-    address: [MAIN, 0x2D65C80]
-    value_type: float
-    value: 0.00134
-  -
-    type: write
-    address: [MAIN, 0x2D65C94]
-    value_type: int32
-    value: -1
-45FPS:
-  # DR GPU Time Factor
-  -
-    type: write
-    address: [MAIN, 0x2D65C80]
-    value_type: float
-    value: 0.0015
-  -
-    type: write
-    address: [MAIN, 0x2D65C94]
-    value_type: int32
-    value: -1
-50FPS:
-  # DR GPU Time Factor
-  -
-    type: write
-    address: [MAIN, 0x2D65C80]
-    value_type: float
-    value: 0.00167
-  -
-    type: write
-    address: [MAIN, 0x2D65C94]
-    value_type: int32
-    value: -1
-55FPS:
-  # DR GPU Time Factor
-  -
-    type: write
-    address: [MAIN, 0x2D65C80]
-    value_type: float
-    value: 0.00184
-  -
-    type: write
-    address: [MAIN, 0x2D65C94]
-    value_type: int32
-    value: -1
-60FPS:
-  # DR GPU Time Factor
-  -
-    type: write
-    address: [MAIN, 0x2D65C80]
-    value_type: float
-    value: 0.002
-  -
-    type: write
-    address: [MAIN, 0x2D65C94]
-    value_type: int32
-    value: -1
+    type: compare
+    compare_address: [MAIN, 0x2D65C90]
+    compare_type: "=="
+    compare_value_type: uint32
+    compare_value: 1
+    address: [MAIN]
+    value_type: refresh_rate
+    value: 30
